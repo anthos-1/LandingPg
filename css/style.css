@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center
+  }
+  
+  /* Navigation menu */
+  header {
+    background-color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    box-shadow: 0 0.25rem 0.125rem 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+  }
+  
+  .main-nav__item {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  .main-nav__item a {
+    text-decoration: none;
+    color: rgb(85, 26, 139);
+    font-weight: 700;
+    padding: 0.2rem .2rem;
+    font-size: 14px;
+  }
+  
+  
+  
+  .logo-item {
+    border: 2px solid rgb(7, 255, 193);
+    padding: .2rem 1rem;
+  }
+  
+  .logo-item a {
+    color: rgb(7, 255, 193);
+  
+  }
+  
+  .logo-item:hover {
+    border: 2px solid rgb(85, 26, 139);
+  }
+  
+  .logo-item a:hover {
+    color: rgb(85, 26, 139);
+  
+  
+  }
+  
+  .main-header__brand {
+    text-decoration: none;
+  
+  }
+  
+  .main-header__brand:hover {
+    color: #757575;
+  
+  }
+  
+  .main-header__brand i {
+  
+    margin-left: 2rem;
+    color: rgb(7, 255, 193);
+    vertical-align: middle;
+    font-size: 1.5rem;
+  
+  }
+  
+  .hover-item a:hover {
+  
+    border-left: rgb(7, 255, 193)2px solid;
+    color: rgb(7, 255, 193);
+  
+  }
+  
+  a .logo-title {
+    font-size: 1.15rem;
+    font-weight: bold;
+    padding: 0 10px;
+    color: rgb(85, 26, 139);
+  }
+  
+  a .logo-title:hover {
+    color: rgb(7, 255, 193);
+  }
+  
+
+.hero{
+      display:flex;
+      background-image: url('../img/alexandria.jpg');
+      width: 100vw;
+      height: 60vh;
+      color: white;
+      flex-direction: column;
+      align-items: flex-end; 
+      justify-content: center;
+      padding: 100px;
+}
+
+.hero-text{
+    font-size: 25px;
+}
+
+.shadow{
+    text-shadow: 1px  1px 4px  rgba(0, 0, 0, 0.768);
+}
+
+
+.showoff{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.SO1{
+
+}
+
+
+
+
+
+
+
+footer {
+    background: #757575;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+   .icon {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .icon i.fab {
+    color: #ffff;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .icon i.fab:hover {
+    color: rgb(7, 255, 193);
+  }
